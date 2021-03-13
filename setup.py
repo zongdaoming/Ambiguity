@@ -18,8 +18,8 @@ setup(
     version='0.1',
     description='A library for the Hierarchical Probabilistic U-Net model.',
     url='https://github.com/deepmind/deepmind-research/hierarchical_probabilistic_unet',
-    author='DeepMind',
-    author_email='no-reply@google.com',
+    author='dorming',
+    author_email='ecnuzdm@gmail.com',
     # Contained modules and scripts.
     packages=find_packages(),
     install_requires=REQUIRED_PACKAGES,
