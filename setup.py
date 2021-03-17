@@ -16,8 +16,8 @@ REQUIRED_PACKAGES = ['numpy', 'dm-sonnet==1.35', 'tensorflow==1.14',
 setup(
     name='hpu_net',
     version='0.1',
-    description='A library for the Hierarchical Probabilistic U-Net model.',
-    url='https://github.com/deepmind/deepmind-research/hierarchical_probabilistic_unet',
+    description='A library for the prepared Probabilistic U-Net model.',
+    url='https://github.com/zongdaoming/uncertainty/',
     author='dorming',
     author_email='ecnuzdm@gmail.com',
     # Contained modules and scripts.

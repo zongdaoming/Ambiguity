@@ -8,6 +8,8 @@ import tensorflow as tf
 from tensorflow_probability import distributions as tfd
 import unet_utils
 
+
+
 """Open Source Version of the Hierarchical Probabilistic U-Net."""
 
 class _HierarchicalCore(snt.AbstractModule):
@@ -163,7 +165,6 @@ class _HierarchicalCore(snt.AbstractModule):
             'distributions': distributions,
             'used_latents': used_latents}
 
-
 class _StitchingDecoder(snt.AbstractModule):
   """A module that completes the truncated U-Net decoder.
   Using the output of the HierarchicalCore this module fills in the missing
@@ -247,7 +248,6 @@ class _StitchingDecoder(snt.AbstractModule):
                       initializers=self._initializers,
                       regularizers=self._regularizers,
                       name='logits')(decoder_features)
-
 
 class HierarchicalProbUNet(snt.AbstractModule):
   """A Hierarchical Probabilistic U-Net."""
