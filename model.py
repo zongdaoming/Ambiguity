@@ -6,8 +6,8 @@ import geco_utils
 import sonnet as snt
 import tensorflow as tf
 from tensorflow_probability import distributions as tfd
-import unet_utils
 
+import unet_utils
 
 
 """Open Source Version of the Hierarchical Probabilistic U-Net."""

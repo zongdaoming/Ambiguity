@@ -5,10 +5,8 @@
 
 
 """Architectural blocks and utility functions of the U-Net."""
-
 import sonnet as snt
 import tensorflow.compat.v1 as tf
-
 
 def res_block(input_features, n_channels, n_down_channels=None,
               activation_fn=tf.nn.relu, initializers=None, regularizers=None,
